@@ -33,6 +33,12 @@
     display: flex;
     gap: 15px;
 }
+.headspan{
+    color: #DDB7FF;
+}
+.span2{
+    color: #ADC6FF;
+}
 .ava{
     display: flex;
     gap: 20px;
