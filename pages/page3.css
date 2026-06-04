@@ -38,3 +38,117 @@
     gap: 20px;
     align-items: center;
 }
+.section1{
+    background-color:#112350;
+    padding-top: 100px;
+}
+.sect1h1{
+    font-size: 48px;
+    color: white;
+}
+.sect1slova{
+    font-size: 18px;
+    color: #C2C6D6;
+}
+.sect1button{
+    color: #002E6A;
+    font-size: 16px;
+    background-color: #b3c3e8;
+    width: 246px;
+    height: 42px;
+    border-radius: 15px;
+}
+.sect1things{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 50px;
+}
+.section2{
+    background-color: #112350;
+}
+.sect2h1{
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.sect2thing{
+    background-color: rgb(28, 7, 79);
+    width: 352px;
+    border-radius: 15px;
+}
+.sect2thing:hover{
+    box-shadow: 0px 0px 20px rgb(67, 226, 226);   
+}
+.sect2thing2{
+    padding-left: 30px;
+}
+.sect2h2{
+    color: white;
+    font-size: 24px;
+}
+.sect2p{
+    font-size: 16px;
+    color: #C2C6D6;
+}
+.sect2button{
+    color: #002E6A;
+    width: 209.94999694824219px;
+    height: 40px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, grey, white);    
+}
+.sect2button:hover{
+    color: #002E6A;
+    width: 209.94999694824219px;
+    height: 40px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #ADC6FF,#DDB7FF);    
+}
+.imagesect2{
+    border-radius: 15px;
+}
+.sect2things{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+@media(max-width:728px){
+ *{
+        width: 100%;
+    }
+    .pages2{
+        display: block;
+    }
+    .ava{
+        display: none;
+    }
+    .pages{
+        display: none;
+    }    
+    .h1head{
+        text-align: center;
+    }
+    .bighead{
+        width: 100%;
+    }
+    .header{
+        position: fixed;
+        width: 100%;
+    }
+    .sect1things{
+        text-align: center;
+        flex-direction: column;
+    }
+    .sect1h1{
+        font-size: 35px;
+    }
+    .sect2things{
+        flex-direction: column;
+    }
+}
