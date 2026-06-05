@@ -197,7 +197,7 @@
     }
     .header{
         position: fixed;
-        width: 100%;
+        width: 410px;
     }
     .sect1things{
         flex-direction: column;
