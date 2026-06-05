@@ -5,7 +5,7 @@
     position: fixed;
     background-color: #05153acc;
     width: 1516px;
-    height: 64px;
+    height: 50px;
     justify-content: space-between;
     padding: 10px;
 }
@@ -57,6 +57,9 @@
     width: 246px;
     height: 42px;
     border-radius: 15px;
+}
+.sect1button:hover{
+    background: linear-gradient(135deg, #ADC6FF, #1E293BB2) ;
 }
 .sect1things{
     display: flex;
@@ -137,6 +140,9 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+}
+.sect3things:hover{
+    box-shadow: 0px 0px 20px white;
 }
 .sect4button1{
     width: 206px;

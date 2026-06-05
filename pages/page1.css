@@ -5,7 +5,7 @@
     position: fixed;
     background-color: #05153acc;
     width: 1516px;
-    height: 64px;
+    height: 50px;
     justify-content: space-between;
     padding: 10px;
 }
@@ -68,7 +68,7 @@
     padding: 17px 32px  ;
     border-radius: 30px;
     background: linear-gradient(black,black) ;
-    color: #002E6A;
+    color: white;
 }
 .button1:hover{
     font-size: 16px;
@@ -89,6 +89,9 @@
     height: 349px;
     background: #1E293BB2;
     border-radius: 30px;
+}
+.sect2left:hover{
+    box-shadow: 0px 0px 20px #2FD9F4;
 }
 .section2h1{
     font-size: 32px;
@@ -125,6 +128,9 @@
     background: #7d9dd51a;
     border-radius: 30px;
 
+}
+.sect2right:hover{
+    box-shadow: 0px 0px 20px #2FD9F4;
 }
 .glavasect2{
     display: flex;
@@ -167,6 +173,10 @@
     background-size: cover;
     border-radius: 30px;
 }
+.sect3img1:hover{
+        box-shadow: 0px 0px 20px blue;
+
+}
 .sect3img2{
     background-image: url(/images/image\ copy\ 6.png);
     width: 280px;
@@ -175,6 +185,10 @@
     background-position: center;
     background-size: cover;
     border-radius: 30px;
+}
+.sect3img2:hover{
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+
 }
 .sect3img3{
     background-image: url(/images/image\ copy\ 7.png);
@@ -185,6 +199,9 @@
     background-size: cover;
     border-radius: 30px;
 }
+.sect3img3:hover{
+    box-shadow: 0px 0px 20px rgb(255, 0, 255);
+}
 .sect3img4{
     background-image: url(/images/image\ copy\ 8.png);
     width: 280px;
@@ -193,6 +210,9 @@
     background-position: center;
     background-size: cover;
     border-radius: 30px;
+}
+.sect3img4:hover{
+    box-shadow: 0px 0px 20px rgb(255, 255, 111);
 }
 .sect3h1white{
     color: white;
@@ -268,6 +288,10 @@
     padding-top: 50px;
     text-align: center;
     justify-content: center;
+    border-radius: 15px;
+}
+.sect5things:hover{
+    box-shadow: 0px 0px 20px white;
 }
 .sect5h1{
     color: white;
@@ -325,13 +349,17 @@
     }
     .header{
         position: fixed;
-        width: 100%;
+        width: 410px;
     }
     .section1h1{
         text-align: center;
     }
     .section1{
         width: 100%;
+    }
+    .button1{
+        width: 300px;
+        margin-bottom: 10px;
     }
     .sect1things{
         padding-left: 0px;
