@@ -328,6 +328,9 @@
     background-color: #002E6A;
     display: none;
 }
+.h1head{
+    display: none;
+}
 footer{
     background-color: #0b1734;
 }
@@ -369,7 +372,7 @@ footer{
     }
     .header{
         position: fixed;
-        width: 410px;
+        width: 100%;
     }
     .section1h1{
         text-align: center;
@@ -386,6 +389,9 @@ footer{
         text-align: center;
     }
     .glavasect2{
+        display: none;
+    }
+        .HEADERLOGO{
         display: none;
     }
     .sect2left{
@@ -431,5 +437,9 @@ footer{
     }
     .footerthings{
         flex-direction: column;
+    }
+        .h1head{
+        text-align: center;
+        display: block;
     }
 }

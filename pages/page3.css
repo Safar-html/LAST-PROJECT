@@ -158,6 +158,9 @@
     height: 50px;
     border-radius: 10px;
 }
+.h1head{
+    display: none;
+}
 .pages2{
     text-align: center;
     display: flex;
@@ -208,7 +211,7 @@ footer{
     }
     .header{
         position: fixed;
-        width: 410px;
+        width: 100%;
     }
     .sect1things{
         text-align: center;
@@ -234,5 +237,12 @@ footer{
     }
         .footerthings{
         flex-direction: column;
+    }
+        .HEADERLOGO{
+        display: none;
+    }
+        .h1head{
+        text-align: center;
+        display: block;
     }
 }
