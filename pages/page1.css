@@ -416,6 +416,7 @@ footer{
         flex-direction: column;
         width: 100%;
         padding-left: 20px;
+        align-items: center;
     }
     .sect5things{
         width: 350px;

@@ -4,7 +4,7 @@
 .header{
     position: fixed;
     background-color: #05153acc;
-    width: 1516px;
+    width: 100%;
     height: 50px;
     justify-content: space-between;
     padding: 10px;
@@ -235,10 +235,10 @@ footer{
     .sect4button1{
         margin-bottom: 10px;
     }
-    .footerthings{
+        .footerthings{
         flex-direction: column;
     }
-    .HEADERLOGO{
+        .HEADERLOGO{
         display: none;
     }
         .h1head{
