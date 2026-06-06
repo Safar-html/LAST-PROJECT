@@ -235,10 +235,10 @@ footer{
     .sect4button1{
         margin-bottom: 10px;
     }
-        .footerthings{
+    .footerthings{
         flex-direction: column;
     }
-        .HEADERLOGO{
+    .HEADERLOGO{
         display: none;
     }
         .h1head{
